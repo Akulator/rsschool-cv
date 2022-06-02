@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Akulator.github.io/rsschool-cv/cv
