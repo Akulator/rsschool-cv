@@ -1,5 +1,5 @@
 ## __Ilya Tukach__
-![avatar](D:\RSSchool\avatar.145 "Пейзаж с горами")
+![avatar](D:\RSSchool\avatar.145.jpg "Hello, It's me")
 ### Contact info
 + ####  Phone number: +375(33)6501855
 + ####  [GitHub](https://github.com/Akulator 'GitHub') 
