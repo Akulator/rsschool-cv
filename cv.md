@@ -1,5 +1,5 @@
 ## __Ilya Tukach__
-![My photo](D:\RSSchool\rsschool-cv\avatar.145.jpg "Hello, It's me")
+![My photo](/avatar.145.jpg "Hello, It's me")
 ### Contact info
 + ####  Phone number: +375(33)6501855
 + ####  GitHub: [Akulator](https://github.com/Akulator 'My GitHub') 
