@@ -74,6 +74,7 @@ body {
   .section {
     width: 50%;
     text-align: center;
+    padding-left: 5%;
   }
   .section-photo {
     border-radius: 50%;
@@ -84,6 +85,9 @@ body {
   .list-skills {
     list-style-type:disc;
   }
+  .list-education {
+    list-style-type: none;
+  }
   .decoration-line-profile {
     align-items: center;
     width: 30%;
@@ -92,7 +96,7 @@ body {
     height: 3px;
   }
   .line {
-    align-content: left;
+    margin-left: 0;
     width: 70%;
     color: grey;
     background-color: grey;
@@ -108,5 +112,8 @@ body {
     text-align: left;
   }
   .section-title {
+    text-align: left;
+  }
+  .code {
     text-align: left;
   }
