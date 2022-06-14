@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover {
+    transition: color .3s;
+    color: whitesmoke;
+}
+header {
+  background-color: #829985;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  footer {
+    background-color: #829985;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-item {
+    color: black;   
+    list-style-type: none;
+    margin: 0 15px;
+  }
+  .nav-link {
+    transition: .3s;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    background-color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    opacity: .3;
+    transition: .3s;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+    opacity: 1;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+    padding-left: 5%;
+  }
+  .section-photo {
+    border-radius: 50%;
+  }
+  .list {
+    list-style-type: disc;
+  }
+  .list-skills {
+    list-style-type:disc;
+  }
+  .list-education {
+    list-style-type: none;
+  }
+  .decoration-line-profile {
+    align-items: center;
+    width: 30%;
+    color: grey;
+    background-color: grey;
+    height: 3px;
+  }
+  .line {
+    margin-left: 0;
+    width: 70%;
+    color: grey;
+    background-color: grey;
+    height: 3px;
+  }
+  .list-item {
+    text-align: left; 
+  }
+  .list-item-skills {
+    text-align: left; 
+  }
+  .section-paragraph {
+    text-align: left;
+    margin: 0;
+  }
+  .section-title {
+    text-align: left;
+  }
+  .code {
+    text-align: left;
+  }
+ 
+  .section-center {
+    text-align: center;
+  }
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .footer-text {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text .section-paragraph {
+    margin-right: 15px;
+  }
+  .footer-text .nav-link {
+    padding-bottom: 0;
+  }
+.footer-logo {
+  width: 105px;
+}
+.footer-logo:hover {
+  opacity: 0.6;
+  transition: .4s;
+}
